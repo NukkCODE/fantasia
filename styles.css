@@ -64,3 +64,44 @@ footer {
     max-width: 100%; /* Rendre l'iframe responsive */
     height: 1500px; /* Ajuste la hauteur selon tes besoins */
 }
+
+.event {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.event-img {
+    width: 150px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 25px;
+}
+
+.event h3 {
+    margin: 2;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.event p {
+    margin: 2;
+    font-size: 1em;
+    padding: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
